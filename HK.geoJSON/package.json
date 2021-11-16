@@ -1,8 +1,8 @@
 {
-  "name": "@datapool/china.geojson",
+  "name": "@datapool/hk.geojson",
   "version": "1.0.1",
-  "description": "中国省地图数据",
-  "main": "china.geoJSON.js",
+  "description": "香港区地图数据",
+  "main": "hk.geoJSON.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "datapool",
-    "china",
+    "HK",
     "geoJSON"
   ],
   "author": "你好2007",
