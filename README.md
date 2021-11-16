@@ -9,6 +9,12 @@
 - [中国省地图数据](./china.geoJSON/README.md)
 - [香港区地图数据](./HK.geoJSON/README.md)
 
+此外，docs里面存放了一些业务数据，例如```docs/flare.js```里面的数据，只需要这样即可引入：
+
+```html
+<script src='https://hai2007.github.io/datapool/flare.js'></script>
+```
+
 开源协议
 ---------------------------------------
 [MIT](https://github.com/hai2007/datapool/blob/master/LICENSE)
