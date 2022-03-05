@@ -1,8 +1,8 @@
 {
-    "name": "@datapool/china.geojson",
-    "version": "1.2.0",
-    "description": "中国地图数据",
-    "main": "china.geoJSON.js",
+    "name": "@datapool/anhui.geojson",
+    "version": "1.0.0",
+    "description": "安徽地图数据",
+    "main": "anhui.geoJSON.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -12,7 +12,7 @@
     },
     "keywords": [
         "datapool",
-        "china",
+        "Anhui",
         "geoJSON"
     ],
     "author": "你好2007",

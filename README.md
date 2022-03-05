@@ -6,8 +6,24 @@
 
 ## 下面是可用数据列表
 
-- [中国省地图数据](./china.geoJSON/README.md)
-- [香港区地图数据](./HK.geoJSON/README.md)
+### 国家地图数据
+
+- [中国地图数据](./china.geoJSON/README.md)
+
+### 中国省和直辖市等地图数据
+
+- [香港地图数据](./HK.geoJSON/README.md)
+- [澳门地图数据](./Macao.geoJSON/README.md)
+- [台湾地图数据](./Taiwan.geoJSON/README.md)
+- [北京地图数据](./Beijing.geoJSON/README.md)
+- [江苏地图数据](./Jiangsu.geoJSON/README.md)
+- [安徽地图数据](./Anhui.geoJSON/README.md)
+
+### 中国市地图数据
+
+- [南京地图数据](./Nanjing.geoJSON/README.md)
+
+### 中国市地图数据
 
 此外，docs里面存放了一些业务数据，例如```docs/flare.js```里面的数据，只需要这样即可引入：
 

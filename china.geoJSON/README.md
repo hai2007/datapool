@@ -1,5 +1,5 @@
 # china.geoJSON
-🗄️ 中国省地图数据。
+🗄️ 中国地图数据。
 
 ## Issues
 使用的时候遇到任何问题或有好的建议，请点击进入[issue](https://github.com/hai2007/datapool/issues)，欢迎参与维护！
@@ -34,4 +34,4 @@ const chinaGeoJSON = require("@datapool/china.geojson");
 ---------------------------------------
 [MIT](https://github.com/hai2007/datapool/blob/master/LICENSE)
 
-Copyright (c) 2021 [hai2007](https://hai2007.gitee.io/sweethome/) 走一步，再走一步。
+Copyright (c) 2021-2022 [hai2007](https://hai2007.gitee.io/sweethome/) 走一步，再走一步。

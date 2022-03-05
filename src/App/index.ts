@@ -10,11 +10,29 @@ Clunch.series('ui-map', map)
 
 import image from './index.clunch'
 
-// 中国省地图数据
+// 中国地图数据
 // import mapGeoJSON from '../../china.geoJSON/china.geoJSON.js'
 
-// 香港区地图数据
-import mapGeoJSON from '../../HK.geoJSON/hk.geoJSON.js'
+// 香港地图数据
+// import mapGeoJSON from '../../HK.geoJSON/hk.geoJSON.js'
+
+// 澳门地图数据
+// import mapGeoJSON from '../../Macao.geoJSON/macao.geoJSON.js'
+
+// 台湾地图数据
+// import mapGeoJSON from '../../Taiwan.geoJSON/taiwan.geoJSON.js'
+
+// 北京地图数据
+// import mapGeoJSON from '../../Beijing.geoJSON/beijing.geoJSON.js'
+
+// 江苏地图数据
+// import mapGeoJSON from '../../Jiangsu.geoJSON/jiangsu.geoJSON.js'
+
+// 安徽地图数据
+// import mapGeoJSON from '../../Anhui.geoJSON/anhui.geoJSON.js'
+
+// 南京地图数据
+import mapGeoJSON from '../../Nanjing.geoJSON/nanjing.geoJSON.js'
 
 @Component({
     selector: "app-root",
