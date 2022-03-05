@@ -1,0 +1,1 @@
+<ui-map :geo-json='mapGeoJSON'/>

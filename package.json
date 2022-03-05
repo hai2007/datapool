@@ -37,7 +37,7 @@
         "@babel/plugin-proposal-object-rest-spread": "^7.16.0",
         "@babel/preset-env": "^7.0.0",
         "@babel/preset-typescript": "^7.16.0",
-        "@etcpack/commonjs-plug": "^0.1.0",
+        "@etcpack/commonjs-plug": "^0.2.0",
         "@etcpack/plain-loader": "^0.1.0",
         "@etcpack/scss-loader": "^0.1.2",
         "etcpack": "^0.5.4",
