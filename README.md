@@ -8,7 +8,7 @@
 
 ### 国家地图数据
 
-- [中国地图数据](./china.geoJSON/README.md)
+- [中国地图数据](./China.geoJSON/README.md)
 
 ### 中国省和直辖市等地图数据
 
