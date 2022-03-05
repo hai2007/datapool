@@ -23,8 +23,6 @@
 
 - [南京地图数据](./Nanjing.geoJSON/README.md)
 
-### 中国市地图数据
-
 此外，docs里面存放了一些业务数据，例如```docs/flare.js```里面的数据，只需要这样即可引入：
 
 ```html
