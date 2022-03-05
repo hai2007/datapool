@@ -1,0 +1,46 @@
+{
+    "name": "datapool",
+    "version": "0.1.0",
+    "description": "🗄️ 一些常用的数据CDN池子，主要是地图数据等。",
+    "scripts": {
+        "build": "etcpack_pkg --config etcpack.prod.js",
+        "dev": "etcpack_dev --config etcpack.dev.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hai2007/datapool.git"
+    },
+    "keywords": [
+        "datapool",
+        "china",
+        "map",
+        "hk"
+    ],
+    "author": "你好2007",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hai2007/datapool/issues"
+    },
+    "homepage": "https://github.com/hai2007/datapool#readme",
+    "dependencies": {
+        "@clunch/map": "^0.1.0",
+        "@hai2007/polyfill": "^0.2.0",
+        "@hai2007/style": "^0.3.0",
+        "clunch": "^2.3.6",
+        "nefbl": "^0.2.6",
+        "sprout-ui": "^0.2.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.0.0",
+        "@babel/plugin-proposal-class-properties": "^7.16.0",
+        "@babel/plugin-proposal-decorators": "^7.16.4",
+        "@babel/plugin-proposal-object-rest-spread": "^7.16.0",
+        "@babel/preset-env": "^7.0.0",
+        "@babel/preset-typescript": "^7.16.0",
+        "@etcpack/commonjs-plug": "^0.1.0",
+        "@etcpack/plain-loader": "^0.1.0",
+        "@etcpack/scss-loader": "^0.1.2",
+        "etcpack": "^0.5.4",
+        "tslib": "^2.3.1"
+    }
+}

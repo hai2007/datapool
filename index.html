@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>datapool 🗄️ 一些常用的数据CDN池子，主要是地图数据等。</title>
+</head>
+
+<body>
+
+    <div id="root"></div>
+
+    <script>
+        var host = window.location.host;
+
+        // 获取head标签
+        var head = document.getElementsByTagName('head')[0];
+
+        // 创建script
+        var script = document.createElement('script');
+
+        // 设置属性
+        script.src = "./build/main@v0.1.0.js";
+
+        if (/^127\.0\.0\.1/.test(host) || /^localhost/.test(host)) {
+            script.type = 'module';
+        }
+
+        // 追加到页面
+        head.appendChild(script);
+    </script>
+
+</body>
+
+</html>
