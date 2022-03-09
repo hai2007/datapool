@@ -38,8 +38,13 @@ import image from './index.clunch'
 // import mapGeoJSON from '../../Tianjin.geoJSON/tianjin.geoJSON.js'
 
 // 西藏地图数据
-import mapGeoJSON from '../../Tibet.geoJSON/tibet.geoJSON.js'
+// import mapGeoJSON from '../../Tibet.geoJSON/tibet.geoJSON.js'
 
+// 雨花台区地图数据
+// import mapGeoJSON from '../../Yuhuatai.geoJSON/yuhuatai.geoJSON.js'
+
+// 建邺区地图数据
+import mapGeoJSON from '../../Jianye.geoJSON/jianye.geoJSON.js'
 
 @Component({
     selector: "app-root",

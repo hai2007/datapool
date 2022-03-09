@@ -4,7 +4,8 @@
     "description": "🗄️ 一些常用的数据CDN池子，主要是地图数据等。",
     "scripts": {
         "build": "etcpack_pkg --config etcpack.prod.js",
-        "dev": "etcpack_dev --config etcpack.dev.js"
+        "dev": "etcpack_dev --config etcpack.dev.js",
+        "build-geojson": "node ./.script/geoJSON/bin.js"
     },
     "repository": {
         "type": "git",
@@ -40,6 +41,7 @@
         "@etcpack/commonjs-plug": "^0.2.0",
         "@etcpack/plain-loader": "^0.1.0",
         "@etcpack/scss-loader": "^0.1.2",
+        "@hai2007/nodejs": "^3.0.0",
         "etcpack": "^0.5.4",
         "tslib": "^2.3.1"
     }
