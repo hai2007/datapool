@@ -1,0 +1,24 @@
+{
+    "name": "@datapool/hainan.geojson",
+    "version": "1.0.0",
+    "description": "海南地图数据",
+    "main": "hainan.geoJSON.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hai2007/datapool.git"
+    },
+    "keywords": [
+        "datapool",
+        "Hainan",
+        "geoJSON"
+    ],
+    "author": "你好2007",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hai2007/datapool/issues"
+    },
+    "homepage": "https://github.com/hai2007/datapool#readme"
+}

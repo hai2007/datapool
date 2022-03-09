@@ -1,0 +1,24 @@
+{
+    "name": "@datapool/liaoning.geojson",
+    "version": "1.0.0",
+    "description": "辽宁地图数据",
+    "main": "liaoning.geoJSON.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hai2007/datapool.git"
+    },
+    "keywords": [
+        "datapool",
+        "Liaoning",
+        "geoJSON"
+    ],
+    "author": "你好2007",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hai2007/datapool/issues"
+    },
+    "homepage": "https://github.com/hai2007/datapool#readme"
+}

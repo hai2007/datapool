@@ -32,7 +32,14 @@ import image from './index.clunch'
 // import mapGeoJSON from '../../Anhui.geoJSON/anhui.geoJSON.js'
 
 // 南京地图数据
-import mapGeoJSON from '../../Nanjing.geoJSON/nanjing.geoJSON.js'
+// import mapGeoJSON from '../../Nanjing.geoJSON/nanjing.geoJSON.js'
+
+// 天津地图数据
+// import mapGeoJSON from '../../Tianjin.geoJSON/tianjin.geoJSON.js'
+
+// 西藏地图数据
+import mapGeoJSON from '../../Tibet.geoJSON/tibet.geoJSON.js'
+
 
 @Component({
     selector: "app-root",
