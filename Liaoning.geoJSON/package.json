@@ -1,6 +1,6 @@
 {
     "name": "@datapool/liaoning.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "辽宁地图数据",
     "main": "liaoning.geoJSON.js",
     "scripts": {

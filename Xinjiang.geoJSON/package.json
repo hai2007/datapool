@@ -1,6 +1,6 @@
 {
     "name": "@datapool/xinjiang.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "新疆地图数据",
     "main": "xinjiang.geoJSON.js",
     "scripts": {

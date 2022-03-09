@@ -1,6 +1,6 @@
 {
     "name": "@datapool/gansu.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "甘肃地图数据",
     "main": "gansu.geoJSON.js",
     "scripts": {

@@ -1,6 +1,6 @@
 {
     "name": "@datapool/yunnan.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "云南地图数据",
     "main": "yunnan.geoJSON.js",
     "scripts": {

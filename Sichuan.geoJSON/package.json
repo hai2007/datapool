@@ -1,6 +1,6 @@
 {
     "name": "@datapool/sichuan.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "四川地图数据",
     "main": "sichuan.geoJSON.js",
     "scripts": {

@@ -1,6 +1,6 @@
 {
     "name": "@datapool/hubei.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "湖北地图数据",
     "main": "hubei.geoJSON.js",
     "scripts": {

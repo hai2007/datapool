@@ -1,6 +1,6 @@
 {
     "name": "@datapool/guangdong.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "广东地图数据",
     "main": "guangdong.geoJSON.js",
     "scripts": {

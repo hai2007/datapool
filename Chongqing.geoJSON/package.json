@@ -1,6 +1,6 @@
 {
     "name": "@datapool/chongqing.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "重庆地图数据",
     "main": "chongqing.geoJSON.js",
     "scripts": {

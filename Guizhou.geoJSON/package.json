@@ -1,6 +1,6 @@
 {
     "name": "@datapool/guizhou.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "贵州地图数据",
     "main": "guizhou.geoJSON.js",
     "scripts": {

@@ -1,6 +1,6 @@
 {
     "name": "@datapool/tianjin.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "天津地图数据",
     "main": "tianjin.geoJSON.js",
     "scripts": {

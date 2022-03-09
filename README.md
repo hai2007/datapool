@@ -1,4 +1,4 @@
-# datapool
+# [datapool](https://www.npmjs.com/org/datapool)
 🗄️ 一些常用的数据CDN池子，主要是地图数据等。
 
 ## Issues
@@ -6,50 +6,56 @@
 
 ## 下面是可用数据列表
 
-### 国家地图数据
+### 中国地图数据
 
-- [中国地图数据](./China.geoJSON/README.md)
-
-### 中国省和直辖市等地图数据
-
-- [香港地图数据](./HK.geoJSON/README.md)
-- [澳门地图数据](./Macao.geoJSON/README.md)
-- [台湾地图数据](./Taiwan.geoJSON/README.md)
-- [北京地图数据](./Beijing.geoJSON/README.md)
-- [江苏地图数据](./Jiangsu.geoJSON/README.md)
-- [安徽地图数据](./Anhui.geoJSON/README.md)
-- [天津地图数据](./Tianjin.geoJSON/README.md)
-- [河北地图数据](./Hebei.geoJSON/README.md)
-- [山西地图数据](./Shanxi.geoJSON/README.md)
-- [内蒙地图数据](./Mongolia.geoJSON/README.md)
-- [辽宁地图数据](./Liaoning.geoJSON/README.md)
-- [吉林地图数据](./Jilin.geoJSON/README.md)
-- [黑龙江地图数据](./Heilongjiang.geoJSON/README.md)
-- [上海地图数据](./Shanghai.geoJSON/README.md)
-- [浙江地图数据](./Zhejiang.geoJSON/README.md)
-- [福建地图数据](./Fujian.geoJSON/README.md)
-- [江西地图数据](./Jiangxi.geoJSON/README.md)
-- [山东地图数据](./Shandong.geoJSON/README.md)
-- [河南地图数据](./Henan.geoJSON/README.md)
-- [湖北地图数据](./Hubei.geoJSON/README.md)
-- [湖南地图数据](./Hunan.geoJSON/README.md)
-- [广东地图数据](./Guangdong.geoJSON/README.md)
-- [广西地图数据](./Guangxi.geoJSON/README.md)
-- [海南地图数据](./Hainan.geoJSON/README.md)
-- [重庆地图数据](./Chongqing.geoJSON/README.md)
-- [四川地图数据](./Sichuan.geoJSON/README.md)
-- [贵州地图数据](./Guizhou.geoJSON/README.md)
-- [云南地图数据](./Yunnan.geoJSON/README.md)
-- [西藏地图数据](./Tibet.geoJSON/README.md)
-- [陕西地图数据](./Shaanxi.geoJSON/README.md)
-- [甘肃地图数据](./Gansu.geoJSON/README.md)
-- [青海地图数据](./Qinghai.geoJSON/README.md)
-- [宁夏地图数据](./Ningxia.geoJSON/README.md)
-- [新疆地图数据](./Xinjiang.geoJSON/README.md)
-
-### 江苏省地图数据
-
-- [南京地图数据](./Nanjing.geoJSON/README.md)
+- [中国](./China.geoJSON/README.md)
+    - [香港](./HK.geoJSON/README.md)
+    - [澳门](./Macao.geoJSON/README.md)
+    - [台湾](./Taiwan.geoJSON/README.md)
+    - [北京](./Beijing.geoJSON/README.md)
+    - [江苏](./Jiangsu.geoJSON/README.md)
+        - [南京](./Nanjing.geoJSON/README.md)
+        - [常州](./Changzhou.geoJSON/README.md)
+        - [淮安](./Huaian.geoJSON/README.md)
+        - [连云港](./Lianyungang.geoJSON/README.md)
+        - [南通](./Nantong.geoJSON/README.md)
+        - [宿迁](./Suqian.geoJSON/README.md)
+        - [苏州](./Suzhou.geoJSON/README.md)
+        - [泰州](./Taizhou.geoJSON/README.md)
+        - [无锡](./Wuxi.geoJSON/README.md)
+        - [盐城](./Ynz.geoJSON/README.md)
+        - [镇江](./Zhenjiang.geoJSON/README.md)
+        - [扬州](./Yangzhou.geoJSON/README.md)
+        - [徐州](./Xuzhou.geoJSON/README.md)
+    - [安徽](./Anhui.geoJSON/README.md)
+    - [天津](./Tianjin.geoJSON/README.md)
+    - [河北](./Hebei.geoJSON/README.md)
+    - [山西](./Shanxi.geoJSON/README.md)
+    - [内蒙](./Mongolia.geoJSON/README.md)
+    - [辽宁](./Liaoning.geoJSON/README.md)
+    - [吉林](./Jilin.geoJSON/README.md)
+    - [黑龙江](./Heilongjiang.geoJSON/README.md)
+    - [上海](./Shanghai.geoJSON/README.md)
+    - [浙江](./Zhejiang.geoJSON/README.md)
+    - [福建](./Fujian.geoJSON/README.md)
+    - [江西](./Jiangxi.geoJSON/README.md)
+    - [山东](./Shandong.geoJSON/README.md)
+    - [河南](./Henan.geoJSON/README.md)
+    - [湖北](./Hubei.geoJSON/README.md)
+    - [湖南](./Hunan.geoJSON/README.md)
+    - [广东](./Guangdong.geoJSON/README.md)
+    - [广西](./Guangxi.geoJSON/README.md)
+    - [海南](./Hainan.geoJSON/README.md)
+    - [重庆](./Chongqing.geoJSON/README.md)
+    - [四川](./Sichuan.geoJSON/README.md)
+    - [贵州](./Guizhou.geoJSON/README.md)
+    - [云南](./Yunnan.geoJSON/README.md)
+    - [西藏](./Tibet.geoJSON/README.md)
+    - [陕西](./Shaanxi.geoJSON/README.md)
+    - [甘肃](./Gansu.geoJSON/README.md)
+    - [青海](./Qinghai.geoJSON/README.md)
+    - [宁夏](./Ningxia.geoJSON/README.md)
+    - [新疆](./Xinjiang.geoJSON/README.md)
 
 此外，docs里面存放了一些业务数据，例如```docs/flare.js```里面的数据，只需要这样即可引入：
 

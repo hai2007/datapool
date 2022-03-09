@@ -1,6 +1,6 @@
 {
     "name": "@datapool/tibet.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "西藏地图数据",
     "main": "tibet.geoJSON.js",
     "scripts": {

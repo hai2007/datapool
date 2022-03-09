@@ -1,6 +1,6 @@
 {
     "name": "@datapool/shanghai.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "上海地图数据",
     "main": "shanghai.geoJSON.js",
     "scripts": {

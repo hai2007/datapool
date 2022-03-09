@@ -1,6 +1,6 @@
 {
     "name": "@datapool/zhejiang.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "浙江地图数据",
     "main": "zhejiang.geoJSON.js",
     "scripts": {

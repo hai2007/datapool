@@ -1,6 +1,6 @@
 {
     "name": "@datapool/shaanxi.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "陕西地图数据",
     "main": "shaanxi.geoJSON.js",
     "scripts": {

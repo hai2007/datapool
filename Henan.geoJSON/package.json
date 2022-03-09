@@ -1,6 +1,6 @@
 {
     "name": "@datapool/henan.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "河南地图数据",
     "main": "henan.geoJSON.js",
     "scripts": {

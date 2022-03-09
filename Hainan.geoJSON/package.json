@@ -1,6 +1,6 @@
 {
     "name": "@datapool/hainan.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "海南地图数据",
     "main": "hainan.geoJSON.js",
     "scripts": {

@@ -1,6 +1,6 @@
 {
     "name": "@datapool/guangxi.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "广西地图数据",
     "main": "guangxi.geoJSON.js",
     "scripts": {

@@ -1,6 +1,6 @@
 {
     "name": "@datapool/ningxia.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "宁夏地图数据",
     "main": "ningxia.geoJSON.js",
     "scripts": {

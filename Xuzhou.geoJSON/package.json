@@ -1,0 +1,24 @@
+{
+    "name": "@datapool/xuzhou.geojson",
+    "version": "1.0.0",
+    "description": "徐州地图数据",
+    "main": "xuzhou.geoJSON.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hai2007/datapool.git"
+    },
+    "keywords": [
+        "datapool",
+        "Xuzhou",
+        "geoJSON"
+    ],
+    "author": "你好2007",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hai2007/datapool/issues"
+    },
+    "homepage": "https://github.com/hai2007/datapool#readme"
+}

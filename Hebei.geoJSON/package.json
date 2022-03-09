@@ -1,6 +1,6 @@
 {
     "name": "@datapool/hebei.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "河北地图数据",
     "main": "hebei.geoJSON.js",
     "scripts": {

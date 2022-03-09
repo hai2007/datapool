@@ -1,6 +1,6 @@
 {
     "name": "@datapool/mongolia.geojson",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "内蒙地图数据",
     "main": "mongolia.geoJSON.js",
     "scripts": {
