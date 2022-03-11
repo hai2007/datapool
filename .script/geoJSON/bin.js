@@ -9,22 +9,17 @@ const fs = require('fs');
 const nodejs = require("@hai2007/nodejs");
 
 const list = {
-    "340100-合肥市": ['hefei', 'Hefei', '合肥'],
-    "340200-芜湖市": ['wuhu', 'Wuhu', '芜湖'],
-    "340300-蚌埠市": ['bengbu', 'Bengbu', '蚌埠'],
-    "340400-淮南市": ['huainan', 'Huainan', '淮南'],
-    "340500-马鞍山市": ['maonshan', 'Maonshan', '马鞍山'],
-    "340600-淮北市": ['huaibei', 'Huaibei', '淮北'],
-    "340700-铜陵市": ['tongling', 'Tongling', '铜陵'],
-    "340800-安庆市": ['anqing', 'Anqing', '安庆'],
-    "341000-黄山市": ['huangshan', 'Huangshan', '黄山'],
-    "341100-滁州市": ['chuzhou', 'Chuzhou', '滁州'],
-    "341200-阜阳市": ['fuyang', 'Fuyang', '阜阳'],
-    "341300-宿州市": ['suzhou-city', 'SuzhouCity', '宿州'],
-    "341500-六安市": ['luan', 'Luan', '六安'],
-    "341600-亳州市": ['bozhou', 'Bozhou', '亳州'],
-    "341700-池州市": ['chizhou', 'Chizhou', '池州'],
-    "341800-宣城市": ['xuancheng', 'Xuancheng', '宣城'],
+    "130100-石家庄市": ['shijiazhuang', 'Shijiazhuang', '石家庄'],
+    "130200-唐山市": ['tangshan', 'Tangshan', '唐山'],
+    "130300-秦皇岛市": ['qinghuangdao', 'Qinghuangdao', '秦皇岛'],
+    "130400-邯郸市": ['handan', 'Handan', '邯郸'],
+    "130500-邢台市": ['xingtai', 'Xingtai', '邢台'],
+    "130600-保定市": ['baoding', 'Baoding', '保定'],
+    "130700-张家口市": ['zhangjiakou', 'Zhangjiakou', '张家口'],
+    "130800-承德市": ['chengde', 'Chengde', '承德'],
+    "130900-沧州市": ['cangzhou', 'Cangzhou', '沧州'],
+    "131000-廊坊市": ['langfang', 'Langfang', '廊坊'],
+    "131100-衡水市": ['hengshui', 'Hengshui', '衡水'],
 };
 
 let month = new Date().getMonth() + 1;

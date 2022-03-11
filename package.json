@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "description": "🗄️ 一些常用的数据CDN池子，主要是地图数据等。",
     "scripts": {
-        "build": "etcpack_pkg --config etcpack.prod.js",
+        "build": "nodejs -e build && etcpack_pkg --config etcpack.prod.js",
         "dev": "etcpack_dev --config etcpack.dev.js",
         "build-geojson": "node ./.script/geoJSON/bin.js"
     },
