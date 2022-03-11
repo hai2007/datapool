@@ -9,17 +9,18 @@ const fs = require('fs');
 const nodejs = require("@hai2007/nodejs");
 
 const list = {
-    "140100-太原市": ['taiyuan', 'Taiyuan', '太原'],
-    "140200-大同市": ['datong', 'Datong', '大同'],
-    "140300-阳泉市": ['yangquan', 'Yangquan', '阳泉'],
-    "140400-长治市": ['cih', 'Cih', '长治'],
-    "140500-晋城市": ['jincheng', 'Jincheng', '晋城'],
-    "140600-朔州市": ['shuozhou', 'Shuozhou', '朔州'],
-    "140700-晋中市": ['jinzhong', 'Jinzhong', '晋中'],
-    "140800-运城市": ['yuncheng', 'Yuncheng', '运城'],
-    "140900-忻州市": ['xinzhou', 'Xinzhou', '忻州'],
-    "141000-临汾市": ['linfen', 'Linfen', '临汾'],
-    "141100-吕梁市": ['lvliang', 'Lvliang', '吕梁'],
+    "150100-呼和浩特市": ['hohhot', 'Hohhot', '呼和浩特'],
+    "150200-包头市": ['baotou', 'Baotou', '包头'],
+    "150300-乌海市": ['wuhai', 'Wuhai', '乌海'],
+    "150400-赤峰市": ['chifeng', 'Chifeng', '赤峰'],
+    "150500-通辽市": ['tongliao', 'Tongliao', '通辽'],
+    "150600-鄂尔多斯市": ['erdos', 'Erdos', '鄂尔多斯'],
+    "150700-呼伦贝尔市": ['hulunbuir', 'Hulunbuir', '呼伦贝尔'],
+    "150800-巴彦淖尔市": ['bayannur', 'Bayannur', '巴彦淖尔'],
+    "150900-乌兰察布市": ['ulanqab', 'Ulanqab', '乌兰察布'],
+    "152200-兴安盟": ['xinganleague', 'Xinganleague', '兴安盟'],
+    "152500-锡林郭勒盟": ['xilingolleague', 'Xilingolleague', '锡林郭勒盟'],
+    "152900-阿拉善盟": ['alxaleague', 'Alxaleague', '阿拉善盟'],
 };
 
 let month = new Date().getMonth() + 1;
