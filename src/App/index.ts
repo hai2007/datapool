@@ -44,7 +44,13 @@ import image from './index.clunch'
 // import mapGeoJSON from '../../Yuhuatai.geoJSON/yuhuatai.geoJSON.js'
 
 // 建邺区地图数据
-import mapGeoJSON from '../../Jianye.geoJSON/jianye.geoJSON.js'
+// import mapGeoJSON from '../../Jianye.geoJSON/jianye.geoJSON.js'
+
+// 六安市地图数据
+// import mapGeoJSON from '../../Luan.geoJSON/luan.geoJSON.js'
+
+// 宿州市地图数据
+import mapGeoJSON from '../../SuzhouCity.geoJSON/suzhou-city.geoJSON.js'
 
 @Component({
     selector: "app-root",
