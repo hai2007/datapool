@@ -9,17 +9,17 @@ const fs = require('fs');
 const nodejs = require("@hai2007/nodejs");
 
 const list = {
-    "130100-石家庄市": ['shijiazhuang', 'Shijiazhuang', '石家庄'],
-    "130200-唐山市": ['tangshan', 'Tangshan', '唐山'],
-    "130300-秦皇岛市": ['qinghuangdao', 'Qinghuangdao', '秦皇岛'],
-    "130400-邯郸市": ['handan', 'Handan', '邯郸'],
-    "130500-邢台市": ['xingtai', 'Xingtai', '邢台'],
-    "130600-保定市": ['baoding', 'Baoding', '保定'],
-    "130700-张家口市": ['zhangjiakou', 'Zhangjiakou', '张家口'],
-    "130800-承德市": ['chengde', 'Chengde', '承德'],
-    "130900-沧州市": ['cangzhou', 'Cangzhou', '沧州'],
-    "131000-廊坊市": ['langfang', 'Langfang', '廊坊'],
-    "131100-衡水市": ['hengshui', 'Hengshui', '衡水'],
+    "140100-太原市": ['taiyuan', 'Taiyuan', '太原'],
+    "140200-大同市": ['datong', 'Datong', '大同'],
+    "140300-阳泉市": ['yangquan', 'Yangquan', '阳泉'],
+    "140400-长治市": ['cih', 'Cih', '长治'],
+    "140500-晋城市": ['jincheng', 'Jincheng', '晋城'],
+    "140600-朔州市": ['shuozhou', 'Shuozhou', '朔州'],
+    "140700-晋中市": ['jinzhong', 'Jinzhong', '晋中'],
+    "140800-运城市": ['yuncheng', 'Yuncheng', '运城'],
+    "140900-忻州市": ['xinzhou', 'Xinzhou', '忻州'],
+    "141000-临汾市": ['linfen', 'Linfen', '临汾'],
+    "141100-吕梁市": ['lvliang', 'Lvliang', '吕梁'],
 };
 
 let month = new Date().getMonth() + 1;
