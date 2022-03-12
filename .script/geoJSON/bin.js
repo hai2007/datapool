@@ -9,15 +9,19 @@ const fs = require('fs');
 const nodejs = require("@hai2007/nodejs");
 
 const list = {
-    '220100-长春市': ['changchun', 'Changchun', '长春'],
-    '220200-吉林市': ['jilin-city', 'JilinCity', '吉林(市)'],
-    '220300-四平市': ['siping', 'Siping', '四平'],
-    '220400-辽源市': ['liaoyuan', 'Liaoyuan', '辽源'],
-    '220500-通化市': ['tonghua', 'Tonghua', '通化'],
-    '220600-白山市': ['baishan', 'Baishan', '白山'],
-    '220700-松原市': ['songyuan', 'Songyuan', '松原'],
-    '220800-白城市': ['baicheng', 'Baicheng', '白城'],
-    '222400-延边朝鲜族自治州': ['ybcxzzzz', 'Ybcxzzzz', '延边朝鲜族自治州'],
+    '230100-哈尔滨市': ['harbin', 'Harbin', '哈尔滨'],
+    '230200-齐齐哈尔市': ['qiqihar', 'Qiqihar', '齐齐哈尔'],
+    '230300-鸡西市': ['jixi', 'Jixi', '鸡西'],
+    '230400-鹤岗市': ['hegang', 'Hegang', '鹤岗'],
+    '230500-双鸭山市': ['shuangyashan', 'Shuangyashan', '双鸭山'],
+    '230600-大庆市': ['daqing', 'Daqing', '大庆'],
+    '230700-伊春市': ['yichun', 'Yichun', '伊春'],
+    '230800-佳木斯市': ['jiamusi', 'Jiamusi', '佳木斯'],
+    '230900-七台河市': ['qitaihe', 'Qitaihe', '七台河'],
+    '231000-牡丹江市': ['mudanjiang', 'Mudanjiang', '牡丹江'],
+    '231100-黑河市': ['heihe', 'Heihe', '黑河'],
+    '231200-绥化市': ['suihua', 'Suihua', '绥化'],
+    '232700-大兴安岭地区': ['daxinganlingarea', 'Daxinganlingarea', '大兴安岭地区'],
 };
 
 let month = new Date().getMonth() + 1;
