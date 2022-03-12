@@ -9,18 +9,20 @@ const fs = require('fs');
 const nodejs = require("@hai2007/nodejs");
 
 const list = {
-    "150100-呼和浩特市": ['hohhot', 'Hohhot', '呼和浩特'],
-    "150200-包头市": ['baotou', 'Baotou', '包头'],
-    "150300-乌海市": ['wuhai', 'Wuhai', '乌海'],
-    "150400-赤峰市": ['chifeng', 'Chifeng', '赤峰'],
-    "150500-通辽市": ['tongliao', 'Tongliao', '通辽'],
-    "150600-鄂尔多斯市": ['erdos', 'Erdos', '鄂尔多斯'],
-    "150700-呼伦贝尔市": ['hulunbuir', 'Hulunbuir', '呼伦贝尔'],
-    "150800-巴彦淖尔市": ['bayannur', 'Bayannur', '巴彦淖尔'],
-    "150900-乌兰察布市": ['ulanqab', 'Ulanqab', '乌兰察布'],
-    "152200-兴安盟": ['xinganleague', 'Xinganleague', '兴安盟'],
-    "152500-锡林郭勒盟": ['xilingolleague', 'Xilingolleague', '锡林郭勒盟'],
-    "152900-阿拉善盟": ['alxaleague', 'Alxaleague', '阿拉善盟'],
+    '210100-沈阳市': ['shenyang', 'Shenyang', '沈阳'],
+    '210200-大连市': ['dalian', 'Dalian', '大连'],
+    '210300-鞍山市': ['anshan', 'Anshan', '鞍山'],
+    '210400-抚顺市': ['fushun', 'Fushun', '抚顺'],
+    '210500-本溪市': ['benxi', 'Benxi', '本溪'],
+    '210600-丹东市': ['dandong', 'Dandong', '丹东'],
+    '210700-锦州市': ['jinzhou', 'Jinzhou', '锦州'],
+    '210800-营口市': ['yingkou', 'Yingkou', '营口'],
+    '210900-阜新市': ['fuxin', 'Fuxin', '阜新'],
+    '211000-辽阳市': ['liaoyang', 'Liaoyang', '辽阳'],
+    '211100-盘锦市': ['panjin', 'Panjin', '盘锦'],
+    '211200-铁岭市': ['tieling', 'Tieling', '铁岭'],
+    '211300-朝阳市': ['sunrise', 'Sunrise', '朝阳'],
+    '211400-葫芦岛市': ['huludao', 'Huludao', '葫芦岛'],
 };
 
 let month = new Date().getMonth() + 1;
@@ -30,7 +32,9 @@ let mdlink = '';
 
 for (let key in list) {
     let item = list[key];
-    let src = 'C:\/Users\/yelloxing\/Desktop\/chinaGeoJson-master\/city\/' + key + ".json";
+
+    // let src = 'C:\/Users\/yelloxing\/Desktop\/chinaGeoJson-master\/city\/' + key + ".json";
+    let src = '../chinaGeoJson-master/city/' + key + ".json";
 
     //  判断文件是否已经存在
     if (fs.existsSync('./' + item[1] + '.geoJSON')) {
@@ -39,10 +43,10 @@ for (let key in list) {
 
     nodejs.copySync("./.script/geoJSON/template", './' + item[1] + '.geoJSON');
 
-    for (let file of ['package.json', 'README.md']) {
+    for (let file of['package.json', 'README.md']) {
         fs.writeFileSync('./' + item[1] + '.geoJSON/' + file,
             (fs.readFileSync('./' + item[1] + '.geoJSON/' + file) + "")
-                .replace(/xxxxxxx\_1/g, item[0]).replace(/xxxxxxx\_2/g, item[1]).replace(/xxxxxxx\_3/g, item[2]).replace(/_$/, ''));
+            .replace(/xxxxxxx\_1/g, item[0]).replace(/xxxxxxx\_2/g, item[1]).replace(/xxxxxxx\_3/g, item[2]).replace(/_$/, ''));
     }
 
     fs.writeFileSync('./' + item[1] + ".geoJSON/CHANGELOG", (fs.readFileSync('./' + item[1] + ".geoJSON/CHANGELOG") + "").replace(/xxxxxxx\_4/, _date_));

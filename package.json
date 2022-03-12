@@ -5,7 +5,8 @@
     "scripts": {
         "build": "nodejs -e build && etcpack_pkg --config etcpack.prod.js",
         "dev": "etcpack_dev --config etcpack.dev.js",
-        "build-geojson": "node ./.script/geoJSON/bin.js"
+        "geojson": "node ./.script/geoJSON/bin.js",
+        "readfolder": "node ./.script/readFolder/bin.js"
     },
     "repository": {
         "type": "git",
