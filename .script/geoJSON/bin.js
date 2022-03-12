@@ -9,20 +9,15 @@ const fs = require('fs');
 const nodejs = require("@hai2007/nodejs");
 
 const list = {
-    '210100-沈阳市': ['shenyang', 'Shenyang', '沈阳'],
-    '210200-大连市': ['dalian', 'Dalian', '大连'],
-    '210300-鞍山市': ['anshan', 'Anshan', '鞍山'],
-    '210400-抚顺市': ['fushun', 'Fushun', '抚顺'],
-    '210500-本溪市': ['benxi', 'Benxi', '本溪'],
-    '210600-丹东市': ['dandong', 'Dandong', '丹东'],
-    '210700-锦州市': ['jinzhou', 'Jinzhou', '锦州'],
-    '210800-营口市': ['yingkou', 'Yingkou', '营口'],
-    '210900-阜新市': ['fuxin', 'Fuxin', '阜新'],
-    '211000-辽阳市': ['liaoyang', 'Liaoyang', '辽阳'],
-    '211100-盘锦市': ['panjin', 'Panjin', '盘锦'],
-    '211200-铁岭市': ['tieling', 'Tieling', '铁岭'],
-    '211300-朝阳市': ['sunrise', 'Sunrise', '朝阳'],
-    '211400-葫芦岛市': ['huludao', 'Huludao', '葫芦岛'],
+    '220100-长春市': ['changchun', 'Changchun', '长春'],
+    '220200-吉林市': ['jilin-city', 'JilinCity', '吉林(市)'],
+    '220300-四平市': ['siping', 'Siping', '四平'],
+    '220400-辽源市': ['liaoyuan', 'Liaoyuan', '辽源'],
+    '220500-通化市': ['tonghua', 'Tonghua', '通化'],
+    '220600-白山市': ['baishan', 'Baishan', '白山'],
+    '220700-松原市': ['songyuan', 'Songyuan', '松原'],
+    '220800-白城市': ['baicheng', 'Baicheng', '白城'],
+    '222400-延边朝鲜族自治州': ['ybcxzzzz', 'Ybcxzzzz', '延边朝鲜族自治州'],
 };
 
 let month = new Date().getMonth() + 1;
