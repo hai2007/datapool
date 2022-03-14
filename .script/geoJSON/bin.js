@@ -9,19 +9,17 @@ const fs = require('fs');
 const nodejs = require("@hai2007/nodejs");
 
 const list = {
-    '230100-哈尔滨市': ['harbin', 'Harbin', '哈尔滨'],
-    '230200-齐齐哈尔市': ['qiqihar', 'Qiqihar', '齐齐哈尔'],
-    '230300-鸡西市': ['jixi', 'Jixi', '鸡西'],
-    '230400-鹤岗市': ['hegang', 'Hegang', '鹤岗'],
-    '230500-双鸭山市': ['shuangyashan', 'Shuangyashan', '双鸭山'],
-    '230600-大庆市': ['daqing', 'Daqing', '大庆'],
-    '230700-伊春市': ['yichun', 'Yichun', '伊春'],
-    '230800-佳木斯市': ['jiamusi', 'Jiamusi', '佳木斯'],
-    '230900-七台河市': ['qitaihe', 'Qitaihe', '七台河'],
-    '231000-牡丹江市': ['mudanjiang', 'Mudanjiang', '牡丹江'],
-    '231100-黑河市': ['heihe', 'Heihe', '黑河'],
-    '231200-绥化市': ['suihua', 'Suihua', '绥化'],
-    '232700-大兴安岭地区': ['daxinganlingarea', 'Daxinganlingarea', '大兴安岭地区'],
+    '330100-杭州市': ['hangzhou', 'Hangzhou', '杭州'],
+    '330200-宁波市': ['ningbo', 'Ningbo', '宁波'],
+    '330300-温州市': ['wenzhou', 'Wenzhou', '温州'],
+    '330400-嘉兴市': ['jiaxing', 'Jiaxing', '嘉兴'],
+    '330500-湖州市': ['huzhou', 'Huzhou', '湖州'],
+    '330600-绍兴市': ['shaoxing', 'Shaoxing', '绍兴'],
+    '330700-金华市': ['jinhua', 'Jinhua', '金华'],
+    '330800-衢州市': ['quzhou', 'Quzhou', '衢州'],
+    '330900-舟山市': ['zhoushan', 'Zhoushan', '舟山'],
+    '331000-台州市': ['taizhou-city', 'TaizhouCity', '台州'],
+    '331100-丽水市': ['lishui', 'Lishui', '丽水'],
 };
 
 let month = new Date().getMonth() + 1;
@@ -32,8 +30,8 @@ let mdlink = '';
 for (let key in list) {
     let item = list[key];
 
-    // let src = 'C:\/Users\/yelloxing\/Desktop\/chinaGeoJson-master\/city\/' + key + ".json";
-    let src = '../chinaGeoJson-master/city/' + key + ".json";
+    let src = 'C:\/Users\/yelloxing\/Desktop\/chinaGeoJson-master\/city\/' + key + ".json";
+    // let src = '../chinaGeoJson-master/city/' + key + ".json";
 
     //  判断文件是否已经存在
     if (fs.existsSync('./' + item[1] + '.geoJSON')) {
