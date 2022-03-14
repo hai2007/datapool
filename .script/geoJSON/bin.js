@@ -9,17 +9,22 @@
  const nodejs = require("@hai2007/nodejs");
 
  const list = {
-     '360100-南昌市': ['nanchang', 'Nanchang', '南昌'],
-     '360200-景德镇市': ['jingdezhen', 'Jingdezhen', '景德镇'],
-     '360300-萍乡市': ['pingxiang', 'Pingxiang', '萍乡'],
-     '360400-九江市': ['jiujiang', 'Jiujiang', '九江'],
-     '360500-新余市': ['xinyu', 'Xinyu', '新余'],
-     '360600-鹰潭市': ['yingtan', 'Yingtan', '鹰潭'],
-     '360700-赣州市': ['ganzhou', 'Ganzhou', '赣州'],
-     '360800-吉安市': ['jian', 'Jian', '吉安'],
-     '360900-宜春市': ['yichun-city', 'YichunCity', '宜春'],
-     '361000-抚州市': ['fuzhou-city', 'FuzhouCity', '抚州'],
-     '361100-上饶市': ['shangrao', 'Shangrao', '上饶'],
+    '370100-济南市': ['jinan', 'Jinan', '济南'],
+    '370200-青岛市': ['qingdao', 'Qingdao', '青岛'],
+    '370300-淄博市': ['zibo', 'Zibo', '淄博'],
+    '370400-枣庄市': ['zaozhuang', 'Zaozhuang', '枣庄'],
+    '370500-东营市': ['doy', 'Doy', '东营'],
+    '370600-烟台市': ['yantai', 'Yantai', '烟台'],
+    '370700-潍坊市': ['weifang', 'Weifang', '潍坊'],
+    '370800-济宁市': ['jining', 'Jining', '济宁'],
+    '370900-泰安市': ['taian', 'Taian', '泰安'],
+    '371000-威海市': ['weihai', 'Weihai', '威海'],
+    '371100-日照市': ['rizhao', 'Rizhao', '日照'],
+    '371300-临沂市': ['linyi', 'Linyi', '临沂'],
+    '371400-德州市': ['texas', 'Texas', '德州'],
+    '371500-聊城市': ['liaocheng', 'Liaocheng', '聊城'],
+    '371600-滨州市': ['binzhou', 'Binzhou', '滨州'],
+    '371700-菏泽市': ['heze', 'Heze', '菏泽'],
  };
 
  let month = new Date().getMonth() + 1;
