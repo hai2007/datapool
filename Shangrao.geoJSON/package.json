@@ -1,0 +1,24 @@
+{
+    "name": "@datapool/shangrao.geojson",
+    "version": "1.0.0",
+    "description": "上饶地图数据",
+    "main": "shangrao.geoJSON.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hai2007/datapool.git"
+    },
+    "keywords": [
+        "datapool",
+        "Shangrao",
+        "geoJSON"
+    ],
+    "author": "你好2007",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hai2007/datapool/issues"
+    },
+    "homepage": "https://github.com/hai2007/datapool#readme"
+}
