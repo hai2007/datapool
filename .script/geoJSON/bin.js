@@ -9,17 +9,15 @@ const fs = require('fs');
 const nodejs = require("@hai2007/nodejs");
 
 const list = {
-    '330100-杭州市': ['hangzhou', 'Hangzhou', '杭州'],
-    '330200-宁波市': ['ningbo', 'Ningbo', '宁波'],
-    '330300-温州市': ['wenzhou', 'Wenzhou', '温州'],
-    '330400-嘉兴市': ['jiaxing', 'Jiaxing', '嘉兴'],
-    '330500-湖州市': ['huzhou', 'Huzhou', '湖州'],
-    '330600-绍兴市': ['shaoxing', 'Shaoxing', '绍兴'],
-    '330700-金华市': ['jinhua', 'Jinhua', '金华'],
-    '330800-衢州市': ['quzhou', 'Quzhou', '衢州'],
-    '330900-舟山市': ['zhoushan', 'Zhoushan', '舟山'],
-    '331000-台州市': ['taizhou-city', 'TaizhouCity', '台州'],
-    '331100-丽水市': ['lishui', 'Lishui', '丽水'],
+    '350100-福州市': ['fuzhou', 'Fuzhou', '福州'],
+    '350200-厦门市': ['xiamen', 'Xiamen', '厦门'],
+    '350300-莆田市': ['putian', 'Putian', '莆田'],
+    '350400-三明市': ['sanming', 'Sanming', '三明'],
+    '350500-泉州市': ['quanzhou', 'Quanzhou', '泉州'],
+    '350600-漳州市': ['zhangzhou', 'Zhangzhou', '漳州'],
+    '350700-南平市': ['nanping', 'Nanping', '南平'],
+    '350800-龙岩市': ['longyan', 'Longyan', '龙岩'],
+    '350900-宁德市': ['ningde', 'Ningde', '宁德'],
 };
 
 let month = new Date().getMonth() + 1;
@@ -40,10 +38,10 @@ for (let key in list) {
 
     nodejs.copySync("./.script/geoJSON/template", './' + item[1] + '.geoJSON');
 
-    for (let file of['package.json', 'README.md']) {
+    for (let file of ['package.json', 'README.md']) {
         fs.writeFileSync('./' + item[1] + '.geoJSON/' + file,
             (fs.readFileSync('./' + item[1] + '.geoJSON/' + file) + "")
-            .replace(/xxxxxxx\_1/g, item[0]).replace(/xxxxxxx\_2/g, item[1]).replace(/xxxxxxx\_3/g, item[2]).replace(/_$/, ''));
+                .replace(/xxxxxxx\_1/g, item[0]).replace(/xxxxxxx\_2/g, item[1]).replace(/xxxxxxx\_3/g, item[2]).replace(/_$/, ''));
     }
 
     fs.writeFileSync('./' + item[1] + ".geoJSON/CHANGELOG", (fs.readFileSync('./' + item[1] + ".geoJSON/CHANGELOG") + "").replace(/xxxxxxx\_4/, _date_));
