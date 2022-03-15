@@ -339,6 +339,11 @@
     - [甘肃](./Gansu.geoJSON/README.md)
     - [青海](./Qinghai.geoJSON/README.md)
     - [宁夏](./Ningxia.geoJSON/README.md)
+        - [银川](./Yinchuan.geoJSON/README.md)
+        - [石嘴山](./Shizuishan.geoJSON/README.md)
+        - [吴忠](./Wuzhong.geoJSON/README.md)
+        - [固原](./Guyuan.geoJSON/README.md)
+        - [中卫](./Zhongwei.geoJSON/README.md)
     - [新疆](./Xinjiang.geoJSON/README.md)
 
 此外，docs里面存放了一些业务数据，例如```docs/flare.js```里面的数据，只需要这样即可引入：
