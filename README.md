@@ -345,6 +345,20 @@
         - [固原](./Guyuan.geoJSON/README.md)
         - [中卫](./Zhongwei.geoJSON/README.md)
     - [新疆](./Xinjiang.geoJSON/README.md)
+        - [乌鲁木齐](./Urumqi.geoJSON/README.md)
+        - [克拉玛依](./Karamay.geoJSON/README.md)
+        - [吐鲁番](./Turpan.geoJSON/README.md)
+        - [哈密](./Hami.geoJSON/README.md)
+        - [昌吉回族自治州](./Changjihzzzz.geoJSON/README.md)
+        - [博尔塔拉蒙古自治州](./Bortalamgzzz.geoJSON/README.md)
+        - [巴音郭楞蒙古自治州](./Bayingolinmgzzz.geoJSON/README.md)
+        - [阿克苏地区](./Aksuregion.geoJSON/README.md)
+        - [克孜勒苏柯尔克孜自治州](./Kizilsukirgizzzz.geoJSON/README.md)
+        - [喀什地区](./Kashgarregion.geoJSON/README.md)
+        - [和田地区](./Hotanarea.geoJSON/README.md)
+        - [伊犁哈萨克自治州](./Ilikazakhzzz.geoJSON/README.md)
+        - [塔城地区](./Tachengarea.geoJSON/README.md)
+        - [阿勒泰地区](./Altayregion.geoJSON/README.md)
 
 此外，docs里面存放了一些业务数据，例如```docs/flare.js```里面的数据，只需要这样即可引入：
 
